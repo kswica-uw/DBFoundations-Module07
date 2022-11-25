@@ -11,7 +11,8 @@
 ## Introduction
 
 This document will cover the different uses for SQL User Defined Functions (UDFs) and the differences between Scalar, Inline, and Multi-Statement Functions. 
-User Defined Functions 
+
+## User Defined Functions 
 
 Functions, unlike Views, enable a user to set parameters that change the results of a query. This can be particularly helpful in reporting because the user is able to specify inputs and have those parameters drive the results of the underlying query. Check constraints are a common use case for custom scalar functions (https://www.youtube.com/watch?v=NxNJJvG7FzU, 2022).
 
