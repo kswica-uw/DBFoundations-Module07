@@ -14,7 +14,7 @@ This document will cover the different uses for SQL User Defined Functions (UDFs
 
 ## User Defined Functions 
 
-Functions, unlike Views, enable a user to set parameters that change the results of a query. This can be particularly helpful in reporting because the user is able to specify inputs and have those parameters drive the results of the underlying query. Check constraints are a common use case for custom scalar functions (https://www.youtube.com/watch?v=NxNJJvG7FzU, 2022).
+Functions, unlike Views, enable a user to set parameters that change the results of a query. This can be particularly helpful in reporting because the user is able to specify inputs and have those parameters drive the results of the underlying query. Check constraints are a common use case for custom scalar functions ([Youtube](https://www.youtube.com/watch?v=NxNJJvG7FzU), 2022).
 
 There are many system-defined SQL functions, including the aggregate functions (i.e. SUM, MAX, AVG, MIN), date functions (i.e. GetDate, IsDate), and functions that enable the user to reformat data (i.e. CAST, CONVERT, FORMAT, CASE). SQL User Defined Functions or UDFs enable a user to create a unique saved SELECT statement that returns either a single value or a table. UDFs are often created when a SELECT statement is required more than once, and the results of that SELECT statement depend on a changing input. Rather than having each user and/or use case repeat similar code, a UDF can be called. This is particularly helpful when the underlying SELECT statement is complex. 
 
